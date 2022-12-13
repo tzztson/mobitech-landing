@@ -24,7 +24,7 @@ const LightBrowswer = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex gap-8'>
+                <div className='flex gap-24'>
                     <a href='' className='text-[#1A16E4] text-[25px] font-light font-[inter]'>Contact Us</a>
                     <a href='' className='text-[#1A16E4] text-[25px] font-light font-[inter]'>Privacy Policy</a>
                 </div>
