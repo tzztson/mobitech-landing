@@ -27,7 +27,7 @@ const NewsMe = () => {
                 </div>
                 <img src={require('../assets/imgs/multi-iphones.png')} alt='multi-iphone' className='mt-16' />
             </div>
-            <div className='flex container mx-auto gap-24'>
+            <div className='flex container mx-auto gap-24 mb-12'>
                 <a href='' className='text-[#1A16E4] text-[25px] font-light font-[inter]'>Contact Us</a>
                 <a href='' className='text-[#1A16E4] text-[25px] font-light font-[inter]'>Privacy Policy</a>
             </div>
