@@ -15,7 +15,7 @@ const LightBrowswer = () => {
                     </p>
                 </div>
                 <div className='flex justify-between items-start max-xl:flex-col max-xl:items-center max-xl:gap-8'>
-                    <button className='mt-24 bg-[#6BA1F2] rounded-[50px] px-28 max-[500px]:px-12  py-6 max-[500px]:py-2 font-[inter] text-[30px] font-medium'>Download</button>
+                    <a href={'https://play.google.com/store/apps/details?id=io.mobitech.browser'} target='_blank' className='mt-24 bg-[#6BA1F2] rounded-[50px] px-28 max-[500px]:px-12  py-6 max-[500px]:py-2 font-[inter] text-[30px] font-medium'>Download</a>
                     <div className='flex flex-col items-center max-xl:mb-12'>
                         <img src={require('../assets/imgs/iphone.png')} className='w-[882px] h-[482px] max-sm:w-full max-sm:object-cover ' />
                         <div className='flex justify-center items-center bg-[#0B2D6130] rounded-[50px] w-[200px]'>
