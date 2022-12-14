@@ -23,7 +23,7 @@ const NewsMe = () => {
                         <li className='font-[inter] font-light text-[20px]'>Stay updated with news notification in categories you like. You are in full control of quantity.</li>
                         <li className='font-[inter] font-light text-[20px]'>The app utilizes the IP address in order to present news according to the user's location.</li>
                     </div>
-                    <a href={'https://play.google.com/store/apps/details?id=io.mobitech.newsme.dt'} target="_blank" className='mt-24 bg-[#6BA1F2] rounded-[50px] px-28 max-sm:px-12 max-sm:py-2 py-6 font-[inter] text-[30px] font-medium w-[360px] max-sm:w-full'>Download</a>
+                    <a className='mt-24 bg-[#6BA1F2] rounded-[50px] px-28 max-sm:px-12 max-sm:py-2 py-6 font-[inter] text-[30px] font-medium w-[360px] text-center max-sm:w-full'>Download</a>
                 </div>
                 <div className='flex-[1_1_50%] max-2xl:mt-24 max-[1030px]:mt-0'>
                     <img src={require('../assets/imgs/multi-iphones.png')} alt='multi-iphone' className='mt-16 w-full max-sm:min-w-full max-sm:object-cover' />
