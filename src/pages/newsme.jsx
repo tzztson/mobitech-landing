@@ -3,7 +3,7 @@ const NewsMe = () => {
         <div className="">
             <div className='flex justify-end my-10 mx-8 items-center gap-4 max-sm:flex-col'>
                 <img src={require('../assets/imgs/news.png')} className="w-[60px] h-[60px]" />
-                <p className='text-[35px] font-[inter] font-bold'>News.me</p>
+                <a href={'https://play.google.com/store/apps/details?id=io.mobitech.newsme.dt'} target="_blank" className='text-[35px] font-[inter] font-bold'>News.me</a>
             </div>
             <div className='flex container mx-auto my-12 justify-between gap-8 px-12 max-[1030px]:flex-col max-md:px-4'>
                 <div className='flex flex-col flex-[1_1_50%]'>

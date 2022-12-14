@@ -3,7 +3,7 @@ const LightBrowswer = () => {
         <div className="">
             <div className='flex justify-end my-10 mx-8 items-center gap-4 max-[500px]:flex-col max-[500px]:mx-4'>
                 <img src={require('../assets/imgs/search.png')} className="w-[60px] h-[60px]" />
-                <p className='text-[35px] max-[300px]:text-[24px] font-[inter] font-bold'>Light Browser</p>
+                <a href={'https://play.google.com/store/apps/details?id=io.mobitech.browser'} target='_blank' className='text-[35px] max-[300px]:text-[24px] font-[inter] font-bold'>Light Browser</a>
             </div>
             <div className='flex flex-col container mx-auto my-12 px-12 max-sm:px-4'>
                 <p className='font-bold text-[80px] max-sm:text-[40px]'>Light Browser</p>
@@ -20,7 +20,7 @@ const LightBrowswer = () => {
                         <img src={require('../assets/imgs/iphone.png')} className='w-[882px] h-[482px] max-sm:w-full max-sm:object-cover ' />
                         <div className='flex justify-center items-center bg-[#0B2D6130] rounded-[50px] w-[200px]'>
                             <img src={require('../assets/imgs/play_arrow.png')} alt='play_arrow' className='w-[52px] h-[57px]' />
-                            <p className='text-[25px] font-medium font-[inter]'>Trailer</p>
+                            <a href={'https://youtu.be/V9MTDypjdmQ'} target='_blank' className='text-[25px] font-medium font-[inter]'>Trailer</a>
                         </div>
                     </div>
                 </div>
